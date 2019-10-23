@@ -48,9 +48,11 @@ Pour la réalisation vous allez utiliser: Vue js, Django et graphQl
     Lors de l'inscription j'ai le choix:
       - Membre
       - Visiteur
-      Un mail où Un SMS de confirmation est envoyer.
+      
+      Un **mail** où Un **SMS** de confirmation est envoyer.
 
       **SMS** le message contient un code que l'utilisateur doit entrer pour valider l'inscription
+      
       **MAIL** Un message suivit d'un lien cripté que sur laquel l'utilisateur doit cliquer pour valider sont inscription
 
   - **Panneau d'administration:**
