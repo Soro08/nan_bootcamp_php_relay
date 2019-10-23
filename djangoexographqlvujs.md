@@ -34,4 +34,4 @@ https://colorlib.com/wp/template/ruft/
 
 ## Réalisation
 
-![Design Blocks](https://raw.githubusercontent.com/froala/design-blocks/master/design-blocks.jpg)
+![vue js django graphql](https://miro.medium.com/max/1200/1*KDLOb-elHdFuUMUrvU7kOw.png)
