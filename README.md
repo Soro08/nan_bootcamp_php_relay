@@ -56,6 +56,8 @@ filter_var($email, FILTER_VALIDATE_EMAIL)
 
 XSS (plus officiellement appelée Cross-Site Scripting) est une faille permettant l'injection de code HTML ou JavaScript dans des variables mal protégées. Il existe en fait deux types de XSS
 
+https://openclassrooms.com/fr/courses/2091901-protegez-vous-efficacement-contre-les-failles-web/2680167-la-faille-xss
+
 
 ## Requête preparé VS query
 ## filtrer les variables
