@@ -44,14 +44,24 @@ Pour la réalisation vous allez utiliser: Vue js, Django et graphQl
 
 ## Fonctionnalité
 
-- **Inscription**
-  Lors de l'inscription j'ai le choix:
-    - Membre
-    - Visiteur
-    
-- Panneau d'administration:
-  - Admin Django (reservé à l'admin principale )
-  - Créer une partie admin pour les membres (https://colorlib.com/wp/free-admin-templates/) vous pouvez choisir parmin les template du site colorlib
-  - Une partie admin pour les visiteur inscrit ( ajouter un boutton les incitent à dévenir membre)
-  
-  
+  - **Inscription**
+    Lors de l'inscription j'ai le choix:
+      - Membre
+      - Visiteur
+      Un mail où Un SMS de confirmation est envoyer.
+
+      **SMS** le message contient un code que l'utilisateur doit entrer pour valider l'inscription
+      **MAIL** Un message suivit d'un lien cripté que sur laquel l'utilisateur doit cliquer pour valider sont inscription
+
+  - **Panneau d'administration:**
+    - Admin Django (reservé à l'admin principale )
+    - Créer une partie admin pour les membres (https://colorlib.com/wp/free-admin-templates/) vous pouvez choisir parmin les template du site colorlib
+    - Une partie admin pour les visiteur inscrit ( ajouter un boutton les incitent à dévenir membre)
+
+  - **Notification**
+
+    - Un mail ou un SMS est envoyé à tous les utilisateurs lors de l'activation d'un nouveau post.
+    - Un mail est envoyé à l'admin lors de l'ajout d'un nouveau post par un membre.
+    - Un mail à l'admin lors d'une demande d'adhesion
+
+
