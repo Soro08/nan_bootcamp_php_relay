@@ -39,3 +39,19 @@ https://colorlib.com/wp/template/ruft/
 
 
 Pour la réalisation vous allez utiliser: Vue js, Django et graphQl
+
+
+
+## Fonctionnalité
+
+- **Inscription**
+  Lors de l'inscription j'ai le choix:
+    - Membre
+    - Visiteur
+    
+- Panneau d'administration:
+  - Admin Django (reservé à l'admin principale )
+  - Créer une partie admin pour les membres (https://colorlib.com/wp/free-admin-templates/) vous pouvez choisir parmin les template du site colorlib
+  - Une partie admin pour les visiteur inscrit ( ajouter un boutton les incitent à dévenir membre)
+  
+  
