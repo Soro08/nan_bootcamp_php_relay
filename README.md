@@ -45,9 +45,6 @@ filter_var($email, FILTER_VALIDATE_EMAIL)
 ?>
 
 
-
-
-
 ```
 
 
@@ -60,4 +57,44 @@ https://openclassrooms.com/fr/courses/2091901-protegez-vous-efficacement-contre-
 
 
 ## Requête preparé VS query
-## filtrer les variables
+
+ Query
+```bash
+
+<?php
+
+// On récupère les variables envoyées par le formulaire
+$login = $_POST['login'];
+$password = $_POST['password'];
+
+// Connexion à la BDD en PDO
+try { $bdd = new PDO('mysql:host=localhost;dbname=bdd','root',''); }
+catch (Exeption $e) { die('Erreur : ' .$e->getMessage())  or die(print_r($bdd->errorInfo())); }
+
+// Requête SQL
+$req = $bdd->query("SELECT * FROM utilisateurs WHERE login='$login' AND password='$password'");
+
+?>
+
+```
+Preparé
+ 
+ ```bash
+ 
+ <?php
+
+// On récupère les variables envoyées par le formulaire
+$login = $_POST['login'];
+$password = $_POST['password'];
+
+// Connexion à la BDD en PDO
+try { $bdd = new PDO('mysql:host=localhost;dbname=bdd','root',''); }
+catch (Exeption $e) { die('Erreur : ' .$e->getMessage())  or die(print_r($bdd->errorInfo())); }
+
+// Requête SQL sécurisée
+$req = $bdd->prepare("SELECT * FROM utilisateurs WHERE login= ? AND password= ?");
+$req->execute(array($login, $password));
+
+?>
+ 
+ ```
