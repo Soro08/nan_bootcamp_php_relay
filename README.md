@@ -28,10 +28,34 @@ Vous aurez plus de détail dans la pratique
 
 ```
 
-### 
+### Solution
+
+```bash
+# 1 si on utilise un email pour la connection
+
+filter_var($email, FILTER_VALIDATE_EMAIL)
+
+
+# 1 Échappement des caractères spéciaux
+
+<?php
+
+ addslashes($var);
+ 
+?>
 
 
 
-## Faill relation au requete
+
+
+```
+
+
+
+## La faille XSS
+
+XSS (plus officiellement appelée Cross-Site Scripting) est une faille permettant l'injection de code HTML ou JavaScript dans des variables mal protégées. Il existe en fait deux types de XSS
+
+
 ## Requête preparé VS query
 ## filtrer les variables
