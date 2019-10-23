@@ -1,5 +1,5 @@
-![logo NaN](http://nan.ci/static/images/favicons.ico/apple-icon-57x57.png)
-# Projet NaN Blog
+
+# ![logo NaN](http://nan.ci/static/images/favicons.ico/apple-icon-57x57.png) Projet NaN Blog
 
 
 
