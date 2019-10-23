@@ -50,6 +50,8 @@ Pour la réalisation vous allez utiliser: Vue js, Django et graphQl
       - Membre
       - Visiteur
       
+      Possibilité de s'inscrit via **gmail**, **facebook**, **github**
+      
       Un **mail** où Un **SMS** de confirmation est envoyé.
 
       **SMS** le message contient un code que l'utilisateur doit entrer pour valider l'inscription
