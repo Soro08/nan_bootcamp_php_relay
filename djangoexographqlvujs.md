@@ -1,30 +1,33 @@
-# Theme
+# Projet NaN Blog
 
-- NaN Blog
 
-Pour plus de visibilité sur google NaN decide de mettre en place un blog qui traitre des sujet d'odre informatique.
 
-# Utilisation:
+  Pour plus de visibilité sur google, NaN décide de mettre en place un blog qui traitre des sujet d'odre informatique.
+
 
   un utilisateur récherchant une aide sur google peut être redirigé sur notre blog.
 
-  Prevoir une partie admin pour les posts.
 
 ## comment le blog fonctionne
 
-- Admin 
+3 - type de compte
 
-  un compt admin a accès à la partie admin de django et à tous les droits.
+  - Compte **admin** ( NaN )
 
-- User
-
-  un compt user peut ecrit un article seul l'admin peut autoriser la publication
+  - Compte **Membre** 
   
-- Client
+    ( ce dernier s'inscrit en tant que membre et l'admin valide sa demande d'hadesion )
+    
+    un compt user peut écrit un article. Seul l'admin peut autoriser la publication ( visibilité sur le site )
+  
+    l'user a une partie admin pour lui où il peut voir la liste de ces posts, nombre de vue par post, nombre de like, nombre de dislike  (graphique d'illustration).
 
-  Un client est un visiteur, il peut avoir un compte où non il à le droit de lire les articles
 
+  - Compte **Visiteur**
+    ( il peut seulement commenter, liker, partager, lire les posts.) ce dernier peut faire une demande d'hadesion afin d'être     reconus comme **membre**
+
+
+## Template
 
 https://colorlib.com/wp/template/ruft/
 
-- Quiz
