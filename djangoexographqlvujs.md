@@ -35,3 +35,7 @@ https://colorlib.com/wp/template/ruft/
 ## Réalisation
 
 ![vue js django graphql](https://miro.medium.com/max/1200/1*KDLOb-elHdFuUMUrvU7kOw.png)
+
+
+
+Pour la réalisation vous allez utiliser: Vue js, Django et graphQl
